@@ -1,0 +1,43 @@
+.navbar{
+    position: fixed;
+    width: 100%;
+    height: 30px;
+    padding: 20px;
+    justify-content: space-between;
+     background-color: #111; 
+}
+.netflix-logo{
+    position: fixed;
+    left: 35px;
+    width: 100px;
+}
+.avatar-logo{
+    position: fixed;
+    right: 90px;
+    width: 30px;
+    cursor: pointer;
+}
+.nav-options {
+    position: fixed;
+     display: inline;
+     color: white;
+     padding-left: 9em;
+     margin-top: .3em;
+     
+}
+.options{
+    margin-left:1.8em;
+    display: inline;
+    cursor: pointer;
+    color: white; 
+    font-weight: 600;
+}
+
+.nav-options2 {
+    cursor: pointer;
+    position:fixed;
+    display: inline-block;
+    color: white;
+    margin-left: 91em;
+    margin-top: .3em;
+}
