@@ -1,5 +1,5 @@
 .row{
-    margin-left:20px;
+    margin-left:10px;
     color:#fff;
 }
 .posters{
@@ -15,7 +15,23 @@
     max-height: 250px;
     margin-right: 10px;
 }
-.title{
+.poster:hover{
+    transform: scale(1.2);
+}
+.small-poster{
+    max-height: 150px;
+    margin-right: 10px;
+}
+.title-org{
     font-family:  Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-size: x-large;
+    padding-left: .7em;
+}
+.youtube-frame{
+    overflow: hidden;
+    position: absolute;
+    margin-top: -11em;
+    margin-right: 10px;
+    margin-left: 50em;
+    box-shadow: rgb(0, 0, 0) 0px 0px 100px;  
 }
