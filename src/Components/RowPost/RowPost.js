@@ -17,12 +17,12 @@ function RowPost(props) {
 
     }, [])
     const opts = {
-      height: '390',
-      width: '100%',
+      height: '500',
+      width: '1000',
       playerVars: {
         autoplay: 1,
         fs:1,
-        playsinline:1,
+        playsinline:0,
         start:2,
         rel:0,
         
@@ -37,11 +37,15 @@ function RowPost(props) {
 
 
   return (
-    <div className='row'>
+    <div className='row-nf'>
       <h2 className='title-org'>{props.title}</h2>
-      <div className="posters">
+      <div className="posters-nf  ">
        {   movies.map((obj)=>
-            <img onClick={()=>handleMovie(obj.id)} className={props.isSmall ? 'small-poster' : 'poster'} src={`${imgUrl+obj.backdrop_path}`} alt={obj.title}  />
+           <div> 
+            <img onClick={()=>handleMovie(obj.id)} className={props.isSmall ? 'small-poster-nf' : 'poster-nf'} src={`${imgUrl+obj.backdrop_path}`} alt={obj.title}  />
+            {/* <p className={props.isSmall ? 'movie-name-small' : 'movie-name'} >{ obj.original_title || obj.name }</p> */}
+            </div>
+            
       )}
        </div>
 

@@ -1,26 +1,33 @@
-.row{
+.row-nf{
     margin-left:10px;
     color:#fff;
 }
-.posters{
+.posters-nf{
     display:flex;
     padding:20px;
     overflow-x: scroll;
     overflow-y: hidden;
 }
-.posters::-webkit-scrollbar{
+.posters-nf::-webkit-scrollbar{
    display: none;
 }
-.poster{
+.poster-nf{
     max-height: 250px;
     margin-right: 10px;
+    transition: transform .2s ease;
 }
-.poster:hover{
-    transform: scale(1.2);
+.poster-nf:hover {
+    transform: scale(1.06);
+    padding-bottom: 1em;
 }
-.small-poster{
+
+.small-poster-nf{
     max-height: 150px;
     margin-right: 10px;
+    transition:  0.3s all ease-in-out;
+}
+.small-poster-nf:hover {
+    transform: scale(1.04);
 }
 .title-org{
     font-family:  Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
@@ -31,7 +38,18 @@
     overflow: hidden;
     position: absolute;
     margin-top: -11em;
-    margin-right: 10px;
-    margin-left: 50em;
-    box-shadow: rgb(0, 0, 0) 0px 0px 100px;  
+    margin-left: 30em;
+    box-shadow: 0px 0px 0px 8000px #00000052;
+    transition: transform .2s ease;
+}
+
+ .movie-name{
+    padding:20px;
+    text-align: center;
+    padding-top: -11em;
+    font-weight: 500;
+}
+
+.movie-name-small{
+    text-align: center;
 }

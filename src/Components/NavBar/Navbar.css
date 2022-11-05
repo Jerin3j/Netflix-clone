@@ -1,4 +1,4 @@
-.navbar{
+.navbar-nf{
     position: fixed;
     width: 100%;
     height: 30px;
@@ -28,7 +28,7 @@
      margin-top: .3em;
      
 }
-.options{
+.options-nf{
     margin-left:1.8em;
     display: inline;
     cursor: pointer;

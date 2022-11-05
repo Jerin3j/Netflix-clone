@@ -1,20 +1,20 @@
-.banner{
+.banner-nf{
  background-size: cover; /*109em */
  height: 650px;
  color: white;
 }
-.title-logo{
+.title-logo-nf{
     height: 100px;
     margin-bottom: -9px;
     margin-top: 3em;
     margin-left: 2em;
 }
-.content{
+.content-nf{
     padding-top: 140px;
     height: 190px;
     padding-left: 15px;
 }
-.title{
+.title-nf{
     font-size: 40px;
     font-weight: 900;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -22,7 +22,7 @@
     padding-left: 1em;
     padding-bottom: -0,5em;
 }
-.button{
+.button-nf{
     color: white;
     height: 3em;
     outline: none;
@@ -38,11 +38,11 @@
     margin-top: 3.5em;
     margin-left: 44px;
 }
-.button:hover{
+.button-nf:hover{
     color: black;
     background-color: #e6e6e6;
 }
-.description{
+.description-nf{
 
     width: 45rem;
     line-height: 2em;
@@ -56,7 +56,7 @@
     margin-left: 2em;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
-.fade-bottom{  
+.fade-bottom-nf{  
     height: 20.4em;
      background-image: linear-gradient(180deg,transparent,rgba(37, 37, 27, 0.61),black);
 }

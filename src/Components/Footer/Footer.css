@@ -1,0 +1,26 @@
+
+.footer-nf{
+    text-align: center;
+    margin-top: em;
+}
+.qn-link-nf{
+    margin-top: 60em;
+    margin-right: 10em;
+    color: gray;
+   text-decoration: none;
+   padding-bottom: 8em;
+
+} 
+.link-1-nf{
+    margin-top: 5em;
+   display:grid;
+   grid-template-columns: 1fr 1fr 1fr 1fr;
+   width: 500px;
+   margin-bottom: -70px;
+   margin-left: 10em;
+}
+.foot{
+    color: gray;
+   text-decoration: none;
+      
+}
