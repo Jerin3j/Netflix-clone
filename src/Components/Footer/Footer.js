@@ -1,20 +1,43 @@
 import React from 'react'
 import './Footer.css'
-function Footer({opts,nyc}) {
+function Footer() {
 
   return (
     <>
-    <div className='footer-nf'>
-     {nyc ? <a className='qn-link-nf ' href='' >Questions? Contact us.</a> :""}
-      <div className='footer-rows-nf'>
-          <div className='link-1-nf'> 
-           { opts.map( obj=>
-               
-                <a className='foot ' href="" > {obj} </a>
-           )}
-      </div>
-    </div>
-    </div>
+    
+    <section className='footer'>
+        <a className='qn-link' href='' >Questions? Contact us.</a> 
+        </section>
+
+        <section className='footer'>
+            <div className='foot '>
+           <p className='hover:text-blue-500 cursor-pointer'>FAQ</p>
+           <p className='hover:text-blue-500 cursor-pointer'>Help Center</p>
+           <p className='hover:text-blue-500 cursor-pointer'>Account</p>
+           <p className='hover:text-blue-500 cursor-pointer'>Media Center</p>
+           </div>
+           
+           <div className='foot'>
+           <p className='hover:text-blue-500 cursor-pointer'>Investor</p>
+           <p className='hover:text-blue-500 cursor-pointer'>Jobs </p>
+           <p className='hover:text-blue-500 cursor-pointer'>Cookie Preferences</p>
+           <p className='hover:text-blue-500 cursor-pointer'>Legal Notices</p>
+           </div>
+           
+           <div className='foot'>
+           <p className='hover:text-blue-500 cursor-pointer'>Relations</p>
+           <p className='hover:text-blue-500 cursor-pointer'>Terms of Use</p>
+           <p className='hover:text-blue-500 cursor-pointer'>Corporate Information</p>
+           <p className='hover:text-blue-500 cursor-pointer'>Legal Notices</p>
+           </div>
+           
+           <div className='foot'>
+           <p className='hover:text-blue-500 cursor-pointer'>Speed Test</p>
+           <p className='hover:text-blue-500 cursor-pointer'>Ways to Watch</p>
+           <p className='hover:text-blue-500 cursor-pointer'>Contact US</p>
+           <p className='hover:text-blue-500 cursor-pointer'>Legal Notices</p>
+           </div>
+        </section>
     </>
   )
 }

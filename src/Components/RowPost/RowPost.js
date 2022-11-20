@@ -17,8 +17,9 @@ function RowPost(props) {
 
     }, [])
     const opts = {
-      height: '500',
-      width: '1000',
+      height: '190',
+      width: '400',
+      align:'center',
       playerVars: {
         autoplay: 1,
         fs:1,
@@ -38,18 +39,15 @@ function RowPost(props) {
 
   return (
     <div className='row-nf'>
-      <h2 className='title-org'>{props.title}</h2>
-      <div className="posters-nf  ">
+      <h2 className='title-org min-[330px]:text-center lg:text-left '>{props.title}</h2>
+      <div className="posters-nf ">
        {   movies.map((obj)=>
-           <div> 
-            <img onClick={()=>handleMovie(obj.id)} className={props.isSmall ? 'small-poster-nf' : 'poster-nf'} src={`${imgUrl+obj.backdrop_path}`} alt={obj.title}  />
-            {/* <p className={props.isSmall ? 'movie-name-small' : 'movie-name'} >{ obj.original_title || obj.name }</p> */}
-            </div>
-            
+            <img onClick={()=>handleMovie(obj.id)} className={props.isSmall ? 'small-poster-nf  sm:max-h-36' : 'poster-nf sm:max-h-52'} src={`${imgUrl+obj.backdrop_path}`} alt={obj.title}  />
+             
       )}
        </div>
 
-      {urlId ? <Youtube  className='youtube-frame' videoId={urlId.key} opts={opts}  /> : "" }
+      {urlId ? <Youtube  className='youtube-frame flex' videoId={urlId.key} opts={opts}  /> : "" }
    
     </div>
   )

@@ -15,10 +15,10 @@ function Banner() {
   return (
     <div
      style={{backgroundImage: `url(${movie ? imgUrl+movie.backdrop_path : ""})`}}
-     className='banner-nf'>
+     className='banner-nf md:bg-top'>
       
         <div className='content-nf'>
-                <h1 className='title-nf'>{movie?.name || movie.title} </h1>
+                <h1 className='title-nf  md:text-left md:text-4xl'>{movie?.name || movie.title} </h1>
               <div className='banner_button-nf'>
               <button className='button-nf'>Play</button>
               <button className='button-nf'>My List</button>

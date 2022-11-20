@@ -19,10 +19,7 @@ function App() {
     <RowPost title="War" isSmall url={wars} />
     <RowPost title="Romantic Movies" isSmall url={romantics} />                                
     <RowPost title="Horror Movies" isSmall url={horrors} />
-    <Footer opts={['FAQ','Investor Relations ','Privacy ', 'Speed Test']} nyc/>        
-    <Footer opts={['Help Center',' Jobs ','Cookie Preferences ', 'Legal Notices']} />
-    <Footer opts={['Account','Ways to Watch ','Corporate Information ', 'netflix Orginals']} />  
-    <Footer opts={['Media Center','Terms of Use ','Contact US']} />       
+    <Footer />      
     </div> 
   );
 }

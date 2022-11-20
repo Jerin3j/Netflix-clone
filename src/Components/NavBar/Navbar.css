@@ -16,7 +16,7 @@
 }
 .avatar-logo{
     position: fixed;
-    right: 90px;
+    right: 30px;
     width: 30px;
     cursor: pointer;
 }
@@ -29,11 +29,11 @@
      
 }
 .options-nf{
-    margin-left:1.8em;
     display: inline;
     cursor: pointer;
     color: white; 
     font-weight: 600;
+    /* margin-right: 1.5em; */
 }
 
 .nav-options2 {
@@ -41,6 +41,9 @@
     position:fixed;
     display: inline-block;
     color: white;
-    margin-left: 91em;
     margin-top: .3em;
+    margin-left:94em;
+}
+.hidden-visible{
+    visibility: hidden;
 }
