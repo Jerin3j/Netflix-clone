@@ -1,3 +1,7 @@
+@font-face {
+    font-family: 'title';
+    src: local('title'), url(../../../fonts/NexaText-Trial-Book.ttf) format('woff');
+}
 .row-nf{
     margin-left:10px;
     color:#fff;
@@ -33,6 +37,7 @@
 .title-org{
     font-size: x-large;
     padding-left: .7em;
+    font-family: title;
 }
 .youtube-frame{
     border-radius: 10px;

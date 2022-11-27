@@ -16,7 +16,7 @@
 }
 .avatar-logo{
     position: fixed;
-    right: 30px;
+    right: 12px;
     width: 30px;
     cursor: pointer;
 }
@@ -26,7 +26,9 @@
      color: white;
      padding-left: 9em;
      margin-top: .3em;
-     
+}
+li{
+margin-right: -30px;
 }
 .options-nf{
     display: inline;

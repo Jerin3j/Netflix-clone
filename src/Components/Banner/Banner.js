@@ -23,7 +23,7 @@ function Banner() {
               <button className='button-nf'>Play</button>
               <button className='button-nf'>My List</button>
             </div>
-            <h1 className='description-nf'>{movie.overview} </h1>
+            <h1 className='description-nf md:ml-8 md:text-xl md:leading-8 md:w-auto '>{movie.overview} </h1>
         </div>
         <div className="fade-bottom-nf"></div>
     </div>

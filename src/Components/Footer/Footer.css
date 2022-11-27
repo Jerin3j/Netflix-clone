@@ -17,9 +17,10 @@
    margin-left: 10em;
 }
 .foot{
-    display:grid;
+    display:row;
     color: gray;
    text-decoration: none;
    grid-template-columns: 1fr 1fr 1fr 1fr;
-   margin-bottom: 40px;
+   margin-bottom: -60px;
+   
 }

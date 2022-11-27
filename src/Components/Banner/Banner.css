@@ -1,3 +1,15 @@
+@font-face {
+    font-family: 'code';
+  src: local('code'), url(../../../fonts/CodeNext-Trial-ExtraBold.otf) format('woff');
+  
+ }
+ @font-face{
+    font-family: 'arena';
+    src: local('arena'),url(../../../fonts/CodeNext-Trial-Regular.otf) ;
+ }
+
+  
+  
 .banner-nf{
  background-size: cover; /*109em */
  background-position: center;
@@ -18,12 +30,14 @@
 
 }
 .title-nf{
-    font-size: 30px;
+    font-size: 40px;
+    line-height: 0px;
     font-weight: 900;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
     padding-top: 2em;
     padding-left: 1em;
     padding-bottom: -0,5em;
+    letter-spacing: 4px;
+    font-family: 'code';
 }
 .button-nf{
     color: white;
@@ -46,19 +60,19 @@
     background-color: #e6e6e6;
 }
 .description-nf{
-    width: 45rem;
+    width: 20rem;
     line-height: 2em;
     display: -webkit-box;
    -webkit-line-clamp: 3;
    -webkit-box-orient: vertical;
     overflow: hidden;
     padding-top: 33px;
-    font-size: 1.2rem;
+    font-size: 1.0rem;
+    margin-left:20px;
     max-width: 430px;
-    margin-left: 2em;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-family: arena;
 }
 .fade-bottom-nf{  
-    height: 30.4em;
+    height: 30.2em;
      background-image: linear-gradient(180deg,transparent,rgba(37, 37, 27, 0.61),black);
 }
