@@ -38,6 +38,8 @@
     padding-bottom: -0,5em;
     letter-spacing: 4px;
     font-family: 'code';
+    line-height: 40px;
+  overflow: hidden;
 }
 .button-nf{
     color: white;

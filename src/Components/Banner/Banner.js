@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react'
 import "./Banner.css"
 import axios from '../../axios'
 import { API_KEY, imgUrl } from "../../Constants/constants";
+import { useRef } from 'react';
 function Banner() {
 
     const [movie,setMovie] = useState({})
@@ -12,6 +13,8 @@ function Banner() {
       setMovie(response.data.results[0])
     }))
   },[] )
+  var Element= useRef(null)
+ 
   return (
     <div
      style={{backgroundImage: `url(${movie ? imgUrl+movie.backdrop_path : ""})`}}
@@ -23,7 +26,7 @@ function Banner() {
               <button className='button-nf'>Play</button>
               <button className='button-nf'>My List</button>
             </div>
-            <h1 className='description-nf md:ml-8 md:text-xl md:leading-8 md:w-auto '>{movie.overview} </h1>
+            <h1  className='description-nf md:ml-8 md:text-xl md:leading-8 md:w-auto '>{movie.overview} </h1>
         </div>
         <div className="fade-bottom-nf"></div>
     </div>

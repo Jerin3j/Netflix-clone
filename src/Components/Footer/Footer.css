@@ -1,26 +1,5 @@
-
-.footer{
-    text-align: center;
-    margin-top:4em;
-}
 .qn-link{
     text-decoration: none;
     color: gray;
     font-weight: bold;
-
-} 
-.link-1{
-    margin-top: 5em;
-   display:grid;
-   grid-template-columns: 1fr 1fr 1fr 1fr;
-   margin-bottom: -70px;
-   margin-left: 10em;
-}
-.foot{
-    display:row;
-    color: gray;
-   text-decoration: none;
-   grid-template-columns: 1fr 1fr 1fr 1fr;
-   margin-bottom: -60px;
-   
 }
