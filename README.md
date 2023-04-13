@@ -1,6 +1,6 @@
 # Netflix-Clone
 
-This is a clone of the Netflix website created using React, and the TMDB API.
+This is a clone of the Netflix website created using React, Tailwind Css, Axios and the TMDB API.
 
 ## Demo
 
@@ -14,7 +14,8 @@ https://netflix-clone-jerin3j.vercel.app/
 ## Features
 
 - Display of popular movies and TV shows from the TMDB API
-- Search functionality for movies and TV shows
+- Shows movie trailer when click on it
+- Automatically change Banner image based on trending movie
 - Responsive design that works on desktop and mobile devices
 
 ## Installation
