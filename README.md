@@ -8,9 +8,8 @@ https://netflix-clone-jerin3j.vercel.app/
 
 ## Screenshots
 
-![Screenshot of Netflix-Clone website on desktop](/screenshots/desktop.png)
-
-![Screenshot of Netflix-Clone website on mobile](screenshots/mobile.png)
+<img src='/screenshots/desktop.png' width='500' alt='Screenshot of Netflix-Clone website on desktop'/>
+<img src='/screenshots/mobile.png' height='500' alt='Screenshot of Netflix-Clone website on mobile'/>
 
 ## Features
 
